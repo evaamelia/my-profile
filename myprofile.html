@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Profil Saya</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://www.w3schools.com/w3css/5/w3.css">
+</head>
+<body>
+
+  <!-- Navbar -->
+  <nav class="navbar">
+    <div class="logo"><b>MY PROFILE</b></div>
+    <ul class="nav-links">
+      <li><a href="#skills">Skill</a></li>
+      <li><a href="#experience">Pengalaman</a></li>
+      <li><a href="#galerry">Galerry</a></li>
+    </ul>
+  </nav>
+
+  <!-- Hero / Gambar & Perkenalan -->
+  <section class="hero" id="introduce">
+    <img src="profile.jpeg" alt="Foto Profil">
+    <div class="intro-text">
+      <h2>HELLO! My name is Eva Amelia</h2>
+      <p>I'm Beginner Frontend Developer</p>
+      <button><a href="#contact">Contact</a></button>
+    </div>
+  </section>
+
+  <section class="about" id="about">
+    <h2>About me</h2>
+    <p>Halo, saya Eva Amelia seorang Frontend Developer pemula yang akan melanjutkan pendidikannya di Universitas Kuningan jurusan Teknik Informatika.
+      Saya biasa dipanggil Eva. Dulu saya belajar pemograman saat dibangku SMK Pertiwi Kuningan jurusan Rekayasa Perangkat Lunak.
+      Ini bukan web pertama yang saya buat. Namun inilah website pertama yang saya hosting.
+      Ngoding bukanlah hobi saya, tapi berani mencoba hal baru itulah yang membuat saya tertarik dibidang IT.</p>
+  </section>
+
+  <!-- Skill -->
+  <section class="skills" id="skills">
+    <div class="cardskill">
+      <h2>Coding Skill</h2>
+      <p>HTML</p>
+<div class="container">
+  <div class="skills html">80%</div>
+</div>
+
+<p>CSS</p>
+<div class="container">
+  <div class="skills css">70%</div>
+</div>
+
+<p>JavaScript</p>
+<div class="container">
+  <div class="skills js">40%</div>
+</div>
+    </div>
+
+     <div class="cardskill">
+      <h2>My Skill</h2>
+      <p>Microsoft Office</p>
+<div class="container">
+  <div class="skills microsoft">95%</div>
+</div>
+<p>Canva</p>
+<div class="container">
+  <div class="skills canva">80%</div>
+</div>
+    </div>
+  </section>
+
+  <!-- Pengalaman -->
+  <section class="experience" id="experience">
+    <h2>Pengalaman</h2>
+    <div class="row">
+  <div class="column">
+    <div class="card">
+      <h4>Praktik Kerja Lapangan - BPS Kab. Kuningan </h4>
+      <p class="periodik">Juli 2024 - Januari 2025</p>
+      <p><ul>
+        <li>Mengerjakan project web aplikasi Sistem Pendataan Penduduk</li>
+        <li>Menciptakan desain visual</li>
+        <li>Mengoperasikan Microsoft Excel dalam pengolahan data</li>
+      </ul></p>
+    </div>
+  </div>
+
+  <div class="column">
+    <div class="card">
+      <h4>Wakil Ketua OSIS - SMK Pertiwi Kuningan</h4>
+      <p class="periodik">Periode 2023 - 2024</p>
+      <p><ul>
+        <li>Mendampingi Ketua dalam memimpin rapat dan menetapkan kebijakan</li>
+        <li>Bertanggungjawab kepada ketua untuk melakukan koordinasi dengan anggota</li>
+        <li>Mengkoordinir setiap program kerja</li>
+      </ul></p>
+    </div>
+  </div>
+  
+  <div class="column">
+    <div class="card">
+      <h4>Sekretaris OSIS - SMK Pertiwi Kuningan</h4>
+      <p class="periodik">Periode 2022 - 2023</p>
+      <p><ul>
+        <li>Mengelola surat dan administrasi harian</li>
+        <li>Bertindak sebagai notulis rapat</li>
+        <li>Mengkoordinir proposal dan laporan kegiatan</li>
+      </ul></p>
+    </div>
+  </div>
+
+</div>
+  </section>
+  
+  <!-- Galerry -->
+  <section class="galerry" id="galerry">
+    <h2>My Gallery</h2>
+    <div class="slideshow-container">
+
+<div class="mySlides fade">
+  <div class="numbertext">1 / 5</div>
+  <img src="pkl.jpeg" style="width:100%">
+  <div class="text">Praktik Kerja Lapangan | BPS Kab. Kuningan</div>
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">2 / 5</div>
+  <img src="lulusan.jpeg" style="width:100%">
+  <div class="text">Lulusan Terbaik | SMK Pertiwi Kuningan</div>
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">3 / 5</div>
+  <img src="ogk.jpeg" style="width:100%">
+  <div class="text">Putra Putri Binangkit | OSIS SMK Pertiwi Kuningan</div>
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">4 / 5</div>
+  <img src="sitanduk1.png" style="width:100%">
+  <div class="text">Projek Web Sistem Pendataan Penduduk | BPS Kab. Kuningan</div>
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">5 / 5</div>
+  <img src="todolist.png" style="width:100%">
+  <div class="text">UKK Rekayasa Perangkat Lunak| SMK Pertiwi Kuningan </div>
+</div>
+
+<a class="prev" onclick="plusSlides(-1)">❮</a>
+<a class="next" onclick="plusSlides(1)">❯</a>
+
+</div>
+<br>
+
+<div style="text-align:center">
+  <span class="dot" onclick="currentSlide(1)"></span> 
+  <span class="dot" onclick="currentSlide(2)"></span> 
+  <span class="dot" onclick="currentSlide(3)"></span> 
+  <span class="dot" onclick="currentSlide(4)"></span> 
+  <span class="dot" onclick="currentSlide(5)"></span> 
+</div>
+  </section>
+
+  <!-- Kontak -->
+  <section class="contact" id="contact">
+    <h2>Contact</h2>
+    <p>📞0812-8488-8286</p>
+    <p>📩 evaamelia400@gmail.com</p>
+    <p>📲 eva_amll</p>
+    <p>🏠 Desa Sayana, Kec.Jalaksana, Kab.Kuningan - Jawa Barat </p>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <p>&copy; 2025 Eva Amelia</p>
+  </footer>
+
+<script>
+let slideIndex = 1;
+showSlides(slideIndex);
+
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+}
+
+function currentSlide(n) {
+  showSlides(slideIndex = n);
+}
+
+function showSlides(n) {
+  let i;
+  let slides = document.getElementsByClassName("mySlides");
+  let dots = document.getElementsByClassName("dot");
+  if (n > slides.length) {slideIndex = 1}    
+  if (n < 1) {slideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";  
+  }
+  for (i = 0; i < dots.length; i++) {
+    dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";  
+  dots[slideIndex-1].className += " active";
+}
+</script>
+
+</body>
+</html>
