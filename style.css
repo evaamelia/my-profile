@@ -53,17 +53,30 @@ section {
   align-items: center;
   flex-direction: column;
   flex-wrap: wrap;
-
 }
 
 .hero img {
   width: 200px;
   height: 200px;
   border-radius: 50%;
+  position: relative;
+  animation-name: mymove1;
+  animation-duration: 2s;
+}
+@keyframes mymove1 {
+  from {right: 200px;}
+  to {right: 0px;}
 }
 
 .intro-text{
   text-align: center;
+  position: relative;
+  animation-name: mymove2;
+  animation-duration: 2s;
+}
+@keyframes mymove2 {
+  from {right: 200px;}
+  to {right: 0px;}
 }
 
 .hero button{
@@ -79,7 +92,15 @@ section {
 }
 
 /* About */
-
+.about{
+  position: relative;
+  animation-name: mymove3;
+  animation-duration: 2s;
+}
+@keyframes mymove3 {
+  from {left: 100px;}
+  to {left: 0px;}
+}
 .about h2{
   text-align: center;
   color: #0d296c;
@@ -97,6 +118,13 @@ section {
   justify-content: center;
   text-align: left;
   color: rgb(0, 0, 0);
+  position: relative;
+  animation-name: mymove4;
+  animation-duration: 2s;
+}
+@keyframes mymove4 {
+  from {bottom: 100px;}
+  to {bottom: 0px;}
 }
 
 .cardskill{
@@ -124,6 +152,13 @@ section {
 /* experience */
 .experience{
   background-color: #ffffff2f;
+  position: relative;
+  animation-name: mymove5;
+  animation-duration: 2s;
+}
+@keyframes mymove5 {
+  from {top: 100px;}
+  to {top: 0px;}
 }
 .experience h2{
   text-align: center;
